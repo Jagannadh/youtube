@@ -2,9 +2,9 @@ import React from "react";
 
 function SidebarRow({ title, Icon }: { title: string; Icon: React.FC }) {
   return (
-    <div className="flex items-center py-1.5 hover:bg-gray-200">
-      <Icon />
-      <div className="ml-2">{title}</div>
+    <div className="group flex items-center py-1.5 cursor-pointer hover:bg-gray-200">
+      <Icon className="group-hover:text-red-500"/>
+      <div className="ml-4 group-hover:font-semibold">{title}</div>
     </div>
   );
 }
