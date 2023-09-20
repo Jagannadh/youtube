@@ -11,9 +11,6 @@ export default function Home() {
         <Sidebar />
         <Videos />
       </div>
-      {/* Main */}
-      {/* Sidebar */}
-      {/* Recommended */}
     </main>
   );
 }
