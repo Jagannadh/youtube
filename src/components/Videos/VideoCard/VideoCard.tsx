@@ -26,9 +26,9 @@ function VideoCard({
       <div className="mt-2.5 flex pr-7">
         <Avatar src={channelImage} alt={channel} />
         <div className="ml-4 ">
-          <h4 className="text-sm mb-1">{title}</h4>
-          <p className="text-gray-500 text-sm">{channel}</p>
-          <p className="text-gray-500 text-sm">
+          <h4 className="mb-1 text-sm">{title}</h4>
+          <p className="text-sm text-gray-500">{channel}</p>
+          <p className="text-sm text-gray-500">
             {views} • {timestamp}
           </p>
         </div>
